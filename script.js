@@ -1,5 +1,5 @@
-const generate_btn = document.getElementById("generate-btn");
-const palettecontainer = document.querySelector(".palette-container")
+ const generate_btn = document.getElementById("generate-btn");
+ const palettecontainer = document.querySelector(".palette-container")
 // const button  = document.querySelectorAll("copy-btn")
 generate_btn.addEventListener("click",generate_pallete);
 palettecontainer.addEventListener("click",function(e) {
@@ -51,4 +51,5 @@ function updatePaletteDisplay(colors){
         hex_color.textContent = color;
     });
 }
+
 generate_pallete();
